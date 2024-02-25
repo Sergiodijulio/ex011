@@ -14,5 +14,16 @@
         <source media="(max-width: 1050px)" srcset="imagens/figura m.png" type="image/png">
         <img src="imagens/figura g.png" alt="Imagems flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/littlefish.mp3"  controls autoplay></audio>
+    <!--Compatibilidade para os formatos de áudios MP3/ WAV/ OGG-->
+    <audio preload=""autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3"> Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
 </body>
 </html>
